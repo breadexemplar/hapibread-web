@@ -15,7 +15,7 @@
     "start": "node index.js",
     "test": "lab -c -v -L -a code",
     "test-cover": "lab -c -v -L -a code -r html -o ./coverage.html && open ./coverage.html",
-    "precompile": "handlebars lib/templates/*.hbs -f app/static/templates.min.js -m"
+    "precompile": "handlebars lib/templates/*.hbs -f app/js/templates.min.js -m"
   },
   "dependencies": {
     "async": "2.0.x",
